@@ -1,4 +1,4 @@
-package com.example.a10119901uts.ui.gallery
+package com.example.a10119901uts.gallery
 
 import android.icu.number.NumberFormatter.with
 import android.os.Bundle
@@ -10,7 +10,6 @@ import com.example.a10119901uts.databinding.FragmentGalleryBinding
 import androidx.recyclerview.widget.*
 import com.example.a10119901uts.R
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.squareup.picasso.Picasso
 
 class GalleryFragment : Fragment() {
 
@@ -28,14 +27,15 @@ class GalleryFragment : Fragment() {
         val root: View = binding.root
 
         val data = listOf(
-            "https://drive.google.com/uc?export=download&id=1z81jmHCioY2X4xDVnqPMVyTzfkSjKPvq",
-            "https://drive.google.com/uc?export=download&id=1kJ_oiAbieLob7SicJ2Hhbi73Skpk7HTQ",
-            "https://drive.google.com/uc?export=download&id=1PLPXcShXc-hz7P_anYH4bWJryBoTW0Rc",
-            "https://drive.google.com/uc?export=download&id=1P5qu3dEjtHEoez6bsGkmGvVCZ5zFiSz8",
-            "https://drive.google.com/uc?export=download&id=17avfLQVMBUBiAzgFXfAm4_-d1pyPSu4A",
-            "https://drive.google.com/uc?export=download&id=1TNK_3Ji0ai8f-7SmIfLo7TbBwQDBcM4N",
-            "https://drive.google.com/uc?export=download&id=1fE8iat96WznlhUxFQKFuwSp0OsGl7Mgq",
-            "https://drive.google.com/uc?export=download&id=1LSq3MRK87byf0eUAC27RmVluMFQPq3Cp",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/2.jpg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/3.jpg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/4.jpeg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/5.jpeg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/6.jpeg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/7.jpg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/8.jpg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/9.jpg",
+            "https://freeplaceid.000webhostapp.com/assets/fauzan/11.jpeg",
         )
 
 

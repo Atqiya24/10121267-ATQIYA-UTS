@@ -1,4 +1,4 @@
-package com.example.a10119901uts.ui.daily_activity
+package com.example.a10119901uts.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.a10119901uts.databinding.FragmentDailyActivityBinding
+import com.example.a10119901uts.databinding.FragmentHomeBinding
 
-class DailyActivityFragment : Fragment() {
+class HomeFragment : Fragment() {
 
-    private var _binding: FragmentDailyActivityBinding? = null
+    private var _binding: FragmentHomeBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,10 +22,10 @@ class DailyActivityFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val dailyActivityViewModel =
-            ViewModelProvider(this).get(DailyActivityViewModel::class.java)
+        val homeViewModel =
+            ViewModelProvider(this).get(HomeViewModel::class.java)
 
-        _binding = FragmentDailyActivityBinding.inflate(inflater, container, false)
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root

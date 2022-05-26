@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/greyblue_2"
-    tools:context=".ui.music.MusicFragment">
+    tools:context=".music.MusicFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,4 +28,66 @@
             android:textAllCaps="true"
             android:textColor="@color/blue" />
     </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txt_music_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen20"
+        android:layout_marginStart="@dimen/dimen20"
+        android:layout_marginEnd="@dimen/dimen20"
+        android:text="Music"
+        android:textColor="@color/white"
+        android:fontFamily="@font/retroica"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_music"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txt_music_title"/>
+
+    <View
+        android:id="@+id/v_separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen2"
+        android:background="@color/white"
+        android:layout_margin="@dimen/dimen20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_music"/>
+
+    <TextView
+        android:id="@+id/txt_video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen20"
+        android:layout_marginStart="@dimen/dimen20"
+        android:layout_marginEnd="@dimen/dimen20"
+        android:text="Video"
+        android:textColor="@color/white"
+        android:fontFamily="@font/retroica"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_separator"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_video"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txt_video_title"/>
+
+<!--    <com.google.android.youtube.player.YouTubePlayerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/ytPlayer"-->
+<!--        android:layout_marginTop="@dimen/dimen10"-->
+<!--        android:layout_marginStart="@dimen/dimen20"-->
+<!--        android:layout_marginEnd="@dimen/dimen20"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/txt_video_title"/>-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

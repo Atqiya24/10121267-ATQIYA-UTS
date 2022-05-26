@@ -41,9 +41,13 @@
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_daily_activity.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_gallery.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_home.xml" value="0.20104166666666667" />
-        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_music.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_music.xml" value="0.16" />
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/fragment_video.xml" value="0.1" />
+        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/item_gallery.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/item_music.xml" value="0.22" />
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/item_row_gallery.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/layout/item_video.xml" value="0.1" />
         <entry key="..\:/Users/tiketux/AndroidStudioProjects/akb-uts-myselfapps/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>

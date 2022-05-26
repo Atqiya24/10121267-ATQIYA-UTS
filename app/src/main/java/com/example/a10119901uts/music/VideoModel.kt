@@ -1,9 +1,7 @@
-package com.example.a10119901uts.ui.daily_activity
+package com.example.a10119901uts.music
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DailyActivityViewModel : ViewModel() {
-
-}
+data class VideoModel(var videoUrl: String?)

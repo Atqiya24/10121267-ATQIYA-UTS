@@ -7,31 +7,31 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.a10119901uts.ui.home.HomeFragment"
+        android:name="com.example.a10119901uts.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_daily_activity"
-        android:name="com.example.a10119901uts.ui.daily_activity.DailyActivityFragment"
+        android:name="com.example.a10119901uts.daily_activity.DailyActivityFragment"
         android:label="@string/title_daily_activity"
         tools:layout="@layout/fragment_daily_activity" />
 
     <fragment
         android:id="@+id/navigation_gallery"
-        android:name="com.example.a10119901uts.ui.gallery.GalleryFragment"
+        android:name="com.example.a10119901uts.gallery.GalleryFragment"
         android:label="@string/title_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/navigation_music"
-        android:name="com.example.a10119901uts.ui.music.MusicFragment"
+        android:name="com.example.a10119901uts.music.MusicFragment"
         android:label="@string/title_music"
         tools:layout="@layout/fragment_music" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.a10119901uts.ui.profile.ProfileFragment"
+        android:name="com.example.a10119901uts.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

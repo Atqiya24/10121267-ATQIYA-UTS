@@ -1,13 +1,9 @@
-package com.example.a10119901uts.ui.gallery
+package com.example.a10119901uts.gallery
 
-import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.a10119901uts.R
 import com.squareup.picasso.Picasso
@@ -21,7 +17,7 @@ class GalleryAdapter(private val data:List<String>) : RecyclerView.Adapter<Galle
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
-        return CustomViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_row_gallery,parent,false))
+        return CustomViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_gallery,parent,false))
     }
 
     override fun getItemCount(): Int = data.count()
