@@ -6,8 +6,4 @@ import androidx.lifecycle.ViewModel
 
 class DailyActivityViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is daily activity Fragment"
-    }
-    val text: LiveData<String> = _text
 }

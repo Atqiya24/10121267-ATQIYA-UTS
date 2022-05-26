@@ -7,7 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import android.content.Intent
+import android.net.Uri
 import com.example.a10119901uts.databinding.FragmentProfileBinding
+import com.example.a10119901uts.R
+import androidx.appcompat.widget.AppCompatButton
 
 class ProfileFragment : Fragment() {
 
@@ -22,16 +26,40 @@ class ProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val profileViewModel =
-            ViewModelProvider(this).get(ProfileViewModel::class.java)
+        val profileViewModel = ViewModelProvider(this).get(ProfileViewModel::class.java)
 
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textProfile
-        profileViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        val btnPhone = root.findViewById<AppCompatButton>(R.id.btn_phone)
+        val btnGmail = root.findViewById<AppCompatButton>(R.id.btn_gmail)
+        val btnIg = root.findViewById<AppCompatButton>(R.id.btn_ig)
+        val btnMaps = root.findViewById<AppCompatButton>(R.id.btn_maps)
+
+        btnPhone.setOnClickListener {
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://api.whatsapp.com/send?phone=6289519422810")
+            startActivity(openURL)
         }
+
+        btnGmail.setOnClickListener {
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("mailto:fauzanabdussalam99@gmail.com")
+            startActivity(openURL)
+        }
+
+        btnIg.setOnClickListener {
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://www.instagram.com/fauzan_abdussalam")
+            startActivity(openURL)
+        }
+
+        btnMaps.setOnClickListener {
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://goo.gl/maps/Pj5tS9fuGgJEdMaL8 ")
+            startActivity(openURL)
+        }
+
         return root
     }
 

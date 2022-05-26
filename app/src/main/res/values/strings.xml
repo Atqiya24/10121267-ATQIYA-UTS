@@ -7,4 +7,15 @@
     <string name="title_gallery">Gallery</string>
     <string name="title_music">Music &amp; Video</string>
     <string name="title_profile">Profile</string>
+    <string name="name">Fauzan M. Abdussalam</string>
+    <string name="job_age">Web Developer | 23 Years Old</string>
+    <string name="title_about_me">About Me</string>
+    <string name="desc_about_me">College Student at <u>University of Computer Indonesia</u>. \nWeb Developer at <u>tiketux.com</u></string>
+    <string name="title_contact">Contact</string>
+    <string name="title_apps">App Version v 1.0</string>
+    <string name="phone_number">(+62) 895-1942-2810</string>
+    <string name="email">fauzanabdussalam99@gmail.com</string>
+    <string name="ig_account">\@fauzan_abdussalam</string>
+    <string name="find_me">Find Me</string>
+
 </resources>
